@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    left: 25px;
+    
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28223f;
+    font-family: monospace, sans-serif;
+    height: 100vh;
+}
+
+.card-container{
+    width: 400px;
+    height: 535px;
+    background-color: #231e39;
+    text-align: center;
+    color: #b3b8cd;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    position: relative;
+    border-radius: 10px;
+}
+.card-container img{
+    width: 180px;
+    border-radius: 50%;
+    margin: 20px;
+    
+   
+}
+.card-container::before{
+    content: "";
+    width: 188px;
+    height: 188px;
+    border-radius: 50%;
+    border: solid 1px #03bfcb;
+    position: absolute;
+    top: 13px;
+    right: 105px;
+}
+p{
+    font-size: 17px;
+    
+}
+h2,h3{
+    margin-bottom: 10px;
+}
+.buttons{
+    
+}
+.buttons button{
+    background-color: transparent;
+    border: 1px solid #03bfcb;
+    border-radius: 3px;
+    color: #03bfcb;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin: 15px 0px 0px 10px;
+    transition: 0.8s;
+    
+}
+
+.buttons button a{
+    text-decoration: none;
+    color: #03bfcb;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #03bfcb;
+    color: #b3b8cd;
+    box-shadow: 1px 1px 12px 5px;
+}
+button:hover a{
+    color: #231e39;
+}
+
+.skills{
+    background-color: #1f1a36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+    width:100%;
+    border-radius: 10px;
+   
+}
+.skills ul{
+    list-style: none;
+}
+.skills ul li{
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+.skills ul li:hover{
+    box-shadow: 1px 1px 12px 4px;
+}
+h5{
+    margin-bottom: 15px;
+   width: 45px;
+    border-bottom: 1px solid #03bfcb;
+    
+}
+
+    
+
+
+.pro{
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 9px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
